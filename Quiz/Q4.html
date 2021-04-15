@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+	<title>
+
+	</title>
+	<style>
+		.container{
+		   padding:20%;
+		   /* margin:10%; */
+		   /* margin-left:26%; */
+		   margin-left:auto;
+		   margin-right: auto;
+		}
+		.top{
+			background-color: rgb(98, 98, 207);
+		}
+		.top h2{
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<link rel="stylesheet" href="Quiz.css">
+
+<body onload="loadAns()">
+	<div class="container">
+		<div class="top"><h2>QUIZ</h2></div>
+		<div class="container mt-sm-5 my-1">
+
+		<form action="Q5.html" onsubmit="checkans()"> 
+			<div class="question ml-sm-5 pl-sm-5 pt-2">
+				<div class="py-2 h5">
+					<b>Q4. Who was assassinated, leading to the start of the First World War?</b>
+				</div>
+				<br>
+				
+				<div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+					
+					<label class="options">Pearl Harbor<input type="radio" id="ans1"  name="q1"  value="Pearl Harbor"> 
+						<span class="checkmark"></span> </label> <br>
+					<label class="options">Archduke Franz Ferdinand<input type="radio"id="ans2"  name="q1"  value="Archduke Franz Ferdinand"> 
+						<span class="checkmark"></span> </label> <br>
+					<label class="options">Genghis Khan<input type="radio" id="ans3"  name="q1"  value="Genghis Khan"> 
+						<span class="checkmark"></span> </label> <br>
+					<label class="options">Alhen zian<input type="radio" id="ans4"  name="q1"  value="Alhen zian"> 
+						<span class="checkmark"></span> </label> <br>
+				</div>
+			</div>
+			<br>
+			<div class="d-flex align-items-center pt-3">
+				<input class="btn btn-success" type="submit" name="submit"> 
+			</div>
+		</form>
+
+		</div>
+	</div>
+	<script>
+		var ans="Archduke Franz Ferdinand";
+		//loadfun
+		function loadans(){
+			localStorage.setItem("question4",ans)
+		}
+
+		var point=0
+		
+		function data()
+		{
+			var radios = document.getElementsByName("q1"); // list of radio buttons
+			// var val = localStorage.getItem('q1'); // local storage value
+
+			for(var i=0;i<radios.length;i++){
+				var opt=radios[i].value;
+				// console.log(opt)
+				if(radios[i].checked){
+					console.log(radios[i].value)
+					return radios[i].value
+				}
+			}
+		}
+		
+		function checkans(){
+			// var score=0;
+			
+			 var score=parseInt(localStorage.getItem("score"));
+			var givenans=data()
+			localStorage.setItem("YourAnswer4",givenans)
+			if(ans==givenans){
+				score++;
+				score=score.toString();
+				localStorage.setItem("score",score)
+
+			}
+
+		}
+			
+	</script>
+</body>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>
+
+    </title>
+    <style>
+        #details-block{
+            margin: 10%;
+            border: 1px solid;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+    </style>
+    <script href="bootstrap/4.6.0-dist/css/bootstrap.css" rel="stylesheet"></script>
+</head>
+
+
+<body onload="loadAns()" style="background-color: rgb(244,203,0);">
+    <div id="deatils-block " >
+
+        <DIV ID="scorecrad" style="margin: 5%;background-color: rgb(245, 252, 245);">
+            <table class="table table-sm-hover ">
+                <tbody>
+                  <tr class="bg-info">
+                
+                    <td>Name</td>
+                    <td id="YourName"><script> document.getElementById("YourName").innerHTML=localStorage.getItem("name");
+                    </script></td>
+                    
+                  </tr>
+                  <tr class="bg-info">
+                   
+                    <td>YourScore</td>
+                    <td id="score"><script> document.getElementById("score").innerHTML=localStorage.getItem("score");
+                    </script></td>
+                    
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </DIV>
+        <table class="table table-hover" style="background-color:aliceblue;">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Question</th>
+                <th scope="col">Correct Answer</th>
+                <th scope="col">Marked Answer</th>
+            </tr class="bg-info">
+            </thead>
+            <tbody>
+            <tr >
+                <th scope="row">1</th>
+                <td>Question1</td>
+                <td id="opt1">Nelson Mandela</td>
+
+                <td id="q1"><script> document.getElementById("q1").innerHTML=localStorage.getItem("yourAnswer1");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Question2</td>
+                <td id="opt2">Venezuela</td>
+
+                <td id="q2"><script> document.getElementById("q2").innerHTML=localStorage.getItem("YourAnswer2");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Question3</td>
+                <td id="opt3">The Himalayas</td>
+                <td id="q3"><script> document.getElementById("q3").innerHTML=localStorage.getItem("YourAnswer3");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Question4</td>
+                <td id="opt4">Archduke Franz Ferdinand</td>
+                <td id="q4"><script> document.getElementById("q4").innerHTML=localStorage.getItem("YourAnswer4");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Question5</td>
+                <td id="opt5">Ancient Egyptians</td>
+                <td id="q5"><script> document.getElementById("q5").innerHTML=localStorage.getItem("YourAnswer5");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Question6</td>
+                <td id="opt6">Red, Green, Black, Blue and Yellow</td>
+                <td id="q6"><script> document.getElementById("q6").innerHTML=localStorage.getItem("YourAnswer6");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Question7</td>
+                <td id="opt7">Flamingo</td>
+                <td id="q7"><script> document.getElementById("q7").innerHTML=localStorage.getItem("YourAnswer7");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Question8</td>
+                <td id="opt8">Minnie Mouse</td>
+                <td id="q8"><script> document.getElementById("q8").innerHTML=localStorage.getItem("YourAnswer8");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Question9</td>
+                <td id="opt9">Flamingos</td>
+                <td id="q9"><script> document.getElementById("q9").innerHTML=localStorage.getItem("YourAnswer9");
+                </script></td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Question10</td>
+                <td id="opt10">Burger King</td>
+                <td id="q10" styel="tex"><script> document.getElementById("q10").innerHTML=localStorage.getItem("YourAnswer10");
+                </script></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    
+
+  <script>
+
+  </script>
+
+
+</body>
