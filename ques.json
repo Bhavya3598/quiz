@@ -1,0 +1,92 @@
+[
+    {
+        "1" :"1. Alongside former President Frederik Willem de Klerk, which then President of South Africa won a Nobel prize for their work to peacefully end apartheid in the country?",
+        "a":"Nelson Mandela",
+        "b":"Anand vishwanath",
+        "c":"Farehi Abdulla",
+        "d":"Sachin Joshi",
+        "answer":"ans1"
+    
+    },
+    {
+        "2" :"In which country would you find Angel Falls, the highest waterfall on earth?",
+        "a":"Russia",
+        "b":"Venezuela",
+        "c":"Paris",
+        "d":"Italy",
+        "answer":"ans2"
+    
+    },
+    {
+        "3" :"How old was Juliet in "Romeo and Juliet"?",
+        "a":"45",
+        "b":"31",
+        "c":"21",
+        "d":"13",
+        "answer":"ans4"
+    
+    },
+    {
+        "4" :"Which of these was a character in "Oliver Twist"?",
+        "a":"Dodger",
+        "b":"Darcy",
+        "c":"Sawyer",
+        "d":"Tiny Tim",
+        "answer":"ans1"
+    
+    },
+    {
+        "5" :"In which country is Transylvania?",
+        "a":"Bulgaria",
+        "b":"Romania",
+        "c":"Croatia",
+        "d":" Serbia",
+        "answer":"ans2"
+    
+    },
+    {
+        "6" :"AJAX allows web page to dynamically",
+        "a":"Timothy Dalton",
+        "b":"Roger Moore",
+        "c":"Sean Connery",
+        "d":"George Lazenby",
+        "answer":"ans3"
+    
+    },
+     {
+        "7" :"Which of the following actors was the first one to play James Bond?",
+        "a":"XML",
+        "b":"HTML",
+        "c":"JavaScript",
+        "d":"Document Object Model",
+        "answer":"ans4"
+    
+    },
+    {
+        "8" :"What is the most points that a player can score with a single throw in darts?",
+        "a":"20",
+        "b":"40",
+        "c":"60",
+        "d":"80",
+        "answer":"ans3"
+    
+    },
+    {
+        "9" :"Which of the following disorders is the fear of being alone?",
+        "a":"Agoraphobia",
+        "b":"Aerophobia",
+        "c":"Acrophobia",
+        "d":"Arachnophobia",
+        "answer":"ans1"
+    
+    },
+    {
+        "10" :"In 1768, Captain James Cook set out to explore which ocean?",
+        "a":"Indian Ocean",
+        "b":"Pacific Ocean",
+        "c":"Atlantic Ocean",
+        "d":"Arctic Ocean",
+        "answer":"ans2"
+    
+    }
+    ]
