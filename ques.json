@@ -55,11 +55,11 @@
     },
      {
         "7" :"Which of the following actors was the first one to play James Bond?",
-        "a":"XML",
-        "b":"HTML",
-        "c":"JavaScript",
-        "d":"Document Object Model",
-        "answer":"ans4"
+        "a":"Barry Nelson",
+        "b":"Sean Connery",
+        "c":"David Niven",
+        "d":"George Lazenby",
+        "answer":"ans1"
     
     },
     {
